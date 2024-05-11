@@ -1,0 +1,94 @@
+body {
+	margin: 0 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
+	& buttons {
+		margin-top: 10px;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin-left: -40px;
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 30px;
+	&:hover {
+		color: #777474;
+		transition: .3s;
+	}
+	&:not(:hover) {
+		color: #000;
+		transition: .3s;
+	}
+}
+
+.main-basket {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	border: none;
+		border-radius: 5px;
+		background-color: rgb(203, 201, 199);
+		cursor: pointer;
+		padding: 5px 20px;
+		margin-left: 5px;
+		&:active {
+			background-color: #686666;
+			transition: .3s;
+		}
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	& button {
+		
+		
+		margin-top: 20px;
+	}
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+.delivery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
